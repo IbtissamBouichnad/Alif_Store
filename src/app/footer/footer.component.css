@@ -1,0 +1,31 @@
+.footer-container{
+    background-image: url("/assets/FooterImage.png");
+    display: flex;
+    justify-content: space-around;
+    height: 430px;
+    padding-top: 40px;
+    margin-top: 270px;
+}
+h3,a{
+    font-family: comic sans ms;
+    text-decoration: none;
+}
+.first{
+    padding-top: 160px;
+}
+.second{
+    padding-top: 140px;
+    padding-right: 200px;
+}
+.logo-et-reseaux{
+    padding-top: 140px;
+}
+.reseaux{
+    justify-content: space-around;
+    display: flex;
+}
+.insta, .facebook{
+    border-radius: 30px;
+    border: solid;
+    color: #0281A1;
+}

@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(179, 178, 178);
+    height: 60px;
+    padding: 15px 0px 5px 5px;
+    
+}
+.site-logo{
+    width: 50px;
+    height: 30px;
+}
+.site-menu{
+   width: 668px;
+    gap:32px;
+    height: 42px;
+    padding: 8px 8px 0px 37px;
+    margin-left: 20px;
+    margin-left: 100px;
+
+}
+@font-face {
+    font-family: "LettersForLearners";
+    src: url("/assets/Letters for Learners.ttf");
+}
+a{
+    font-family: "letters for learners"; 
+    font-size: 17px;
+    text-decoration:none;
+    padding: 10px 0px 12px 0px;
+    margin-right: 25px;
+    
+
+}
+.site-cnx{
+  width: 300px;
+  height: 24px;
+  margin-right: 0px;
+  padding: 8px 0px 0px 8px;
+  margin-left: 150px;
+}
+.underline{
+    text-decoration: underline;
+}

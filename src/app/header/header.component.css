@@ -1,0 +1,213 @@
+.buttons-place {
+  display: inline-flex;
+  gap: 12px;
+  padding: 50px 200px 12px 250px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 724px;
+  height: 49px;
+}
+
+button {
+  border-radius: 24px;
+  width: 181px;
+  height: 37px;
+  border: 1px solid;
+  border-color: #403a34;
+  background-color: #ffffff;
+}
+
+.heart-button{
+  border: none;
+  width: 12px;
+}
+
+.pack-showed {
+  margin-left: 250px;
+  width: 659px;
+  height: 270px;
+  padding-right: 24px;
+  background: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26px;
+  display: inline-flex;
+}
+
+.pack-text-container {
+  width: 337px;
+  height: 300px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: inline-flex;
+}
+
+.pack-text {
+  width: 337px;
+  color: #403a34;
+  font-size: 20px;
+  font-family: comic Sans MS;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 25px;
+  word-wrap: break-word;
+  padding-right: 10px;
+}
+.coeur1 {
+  margin-left: 40px;
+}
+
+.coeur2 {
+    margin-left:10px;
+  }
+.pack-age-cadre {
+  width: 118px;
+  height: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #ddecf4;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  display: inline-flex;
+}
+.pack-age-text {
+  text-align: center;
+  color: #324054;
+  font-size: 10px;
+  font-family: comic Sans MS;
+  font-weight: 100;
+  word-wrap: break-word;
+}
+.pack-text {
+  width: 389px;
+  color: #403a34;
+  font-size: 12px;
+  font-family: comic sans ms;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding-top: 17px;
+}
+.pack-prix {
+  width: 289px;
+  color: #403a34;
+  font-size: 20px;
+  font-family: comic sans ms;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 25px;
+  word-wrap: break-word;
+  padding-top: 9px;
+}
+h2{
+    font-family: comic sans ms;
+    margin-left: 100px;
+}
+.card{
+    margin-left: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    height: 455px;
+    border: 1px;
+    height: 500px;
+}
+.card-text-container{
+    width: 270px;
+    height: 250px;
+    color: #403a34;
+    font-size: 12px;
+    font-family: comic sans ms;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.card-text {
+    width: 270px;
+    color: #403a34;
+    font-size: 12px;
+    font-family: comic sans ms;
+    word-wrap: break-word; 
+}
+.card-titre{
+    width:270px;
+    display:inline-block;
+    
+    
+}
+.card-text-sent{
+    font-size: 12px;
+    font-family: comic sans ms;
+    width:260px ;
+    padding: 10px;
+}
+.card-age-cadre {
+    width: 118px;
+    height: 22px;
+    background: #ddecf4;
+    border-radius: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    margin-left: 15px;
+    display: inline-flex;
+}
+.card-age-text {
+    text-align: center;
+    color: #324054;
+    font-size: 10px;
+    font-family: comic Sans MS;
+    font-weight: 100;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.card-prix {
+    width: 80px;
+    margin: 15px;
+    color: #403a34;
+    font-size: 20px;
+    font-family: comic sans ms;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+.ajouter-panier-pack{
+    background-color: #0281A1;
+    color: #ffffff;
+    font-family: comic sans ms;
+    border: solid;
+}
+.ajouter-panier-container-pack{
+  padding-left: 85px;
+  padding-top: 9px;
+}
+.ajouter-panier-card{
+    background-color: #0281A1;
+    color: #ffffff;
+    font-family: comic sans ms;
+    border: solid;
+}
+.ajouter-panier-container-card{
+  padding-left: 35px;
+}
+.voir-plus{
+    background-color: #ffffff;
+    color:  #0281A1;
+    font-family: comic sans ms;
+    border: solid;
+    
+}
+.voir-plus-container{
+  padding-left: 550px;
+  padding-top: 25px;
+}
