@@ -29,88 +29,42 @@
       Récits à télécharger
     </button>
   </div>
-  <div class="pack-showed" *ngFor="let p of pack, let i=index">
-    <img
-      [src]="p.image"
-      alt=""
-      style="width: 272px; height: 270px"
-    />
+  <div class="pack-showed" *ngFor="let p of pack; let i = index">
+    <img [src]="p.image" alt="" style="width: 272px; height: 270px" />
     <div class="pack-text-container">
       <div class="pack-text">
         <h3 style="font-size: 20px">
-          {{p.titre}}
-          <button class="heart-button"  (click)="clickEvent1(i)">
-            <i-bs name="suit-heart" width="30" height="20" class="coeur1"  *ngIf="!p.status"></i-bs>
-            <i-bs name="suit-heart-fill" width="30" height="20" class="coeur1"  *ngIf="p.status"></i-bs>
+          {{ p.titre }}
+          <button class="heart-button" (click)="clickEvent(i)">
+            <i-bs
+              name="suit-heart"
+              width="30"
+              height="20"
+              class="coeur1"
+              *ngIf="!p.status"
+            ></i-bs>
+            <i-bs
+              name="suit-heart-fill"
+              width="30"
+              height="20"
+              class="coeur1"
+              *ngIf="p.status"
+            ></i-bs>
           </button>
         </h3>
         <div class="pack-age-cadre">
-          <p class="pack-age-text"><b>{{p.age}}</b></p>
+          <p class="pack-age-text">
+            <b>{{ p.age }}</b>
+          </p>
         </div>
         <div class="pack-text">
-          {{p.description}}
+          {{ p.description }}
         </div>
-        <div class="pack-prix">{{p.prix}}</div>
-        <div class="ajouter-panier-container-pack" ><button class="ajouter-panier-pack">AJOUTER AU PANIER</button></div>
-      </div>
-    </div>
-  </div>
-</div>
-<div>
-  <h2>Les packs</h2>
-  <div class="cards-container">
-    <div class="card" *ngFor="let card of cards,let i = index">
-      <img [src]=" card.image" alt="" style="width: 272px; height: 222px" />
-      <div class="card-text-container">
-        <div class="card-text">
-          <div class="card-titre">
-            <h3 style="margin: 15px; font-size: 15px">
-            {{ card.titre }}
-            <button class="heart-button"  (click)="clickEvent2(i)">
-              <i-bs name="suit-heart" width="18" height="18" class="coeur2"  *ngIf="!card.status"></i-bs>
-              <i-bs name="suit-heart-fill" width="18" height="18" class="coeur2"  *ngIf="card.status"></i-bs>
-            </button>
-          </h3>
-          </div>
-          <div class="card-age-cadre">
-            <p class="card-age-text">
-              <b>{{card.age }}</b>
-            </p>
-          </div>
-          <p class="card-text-sent">{{ card.description }}</p>
-          <div class="card-prix">{{ card.prix }}</div>
-        <div class="ajouter-panier-container-card" ><button class="ajouter-panier-card">AJOUTER AU PANIER</button></div>
+        <div class="pack-prix">{{ p.prix }}</div>
+        <div class="ajouter-panier-container-pack">
+          <button class="ajouter-panier-pack">AJOUTER AU PANIER</button>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div>
-    <h2>Les livrets pédagogiques</h2>
-    <div class="cards-container">
-      <div class="card" *ngFor="let l of livrets,let i = index">
-        <img [src]="l.image" alt="" style="width: 272px; height: 222px" />
-        <div class="card-text-container">
-          <div class="card-text">
-            <div class="card-titre">
-              <h3 style="margin: 15px; font-size: 15px">
-              {{ l.titre }}
-              <button class="heart-button"  (click)="clickEvent3(i)">
-                <i-bs name="suit-heart" width="18" height="18" class="coeur2"  *ngIf="!l.status"></i-bs>
-                <i-bs name="suit-heart-fill" width="18" height="18" class="coeur2"  *ngIf="l.status"></i-bs>
-              </button>
-            </h3>
-            </div>
-            <div class="card-age-cadre">
-              <p class="card-age-text">
-                <b>{{l.age }}</b>
-              </p>
-            </div>
-            <p class="card-text-sent">{{l.description }}</p>
-            <div class="card-prix">{{l.prix }}</div>
-            <div class="ajouter-panier-container-card" ><button class="ajouter-panier-card">AJOUTER AU PANIER</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="voir-plus-container" ><button class="voir-plus">Voir plus de livrets</button></div>

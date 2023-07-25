@@ -1,5 +1,5 @@
 .footer-container{
-    background-image: url("/assets/FooterImage.png");
+    background-image: url("../../assets/FooterImage.png");
     display: flex;
     justify-content: space-around;
     height: 430px;

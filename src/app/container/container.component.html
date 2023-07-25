@@ -1,5 +1,28 @@
 <div class="wrapper">
     <app-nav></app-nav>
     <app-header></app-header>
+    <h2>Les packs</h2>
+    <div class="cards-container">
+    <app-card *ngFor="let card of packs; let i = index"
+         [titre]="card.titre"
+         [age]="card.age"
+         [description]="card.description"
+         [prix]="card.prix"
+         [index]="i"  
+         [status]="card.status"
+         (heartClicked)="onHeartClick('packs', i)">
+    </app-card> </div>
+    <h2>Les livrets pédagogiques</h2>
+    <div class="cards-container">
+    <app-card *ngFor="let livret of livrets; let i = index"
+         [titre]="livret.titre"
+         [age]="livret.age"
+         [description]="livret.description"
+         [prix]="livret.prix"
+         [index]="i"  
+         [status]="livret.status"
+         (heartClicked)="onHeartClick('livrets', i)">
+    </app-card> </div>
+    
     <app-footer></app-footer>
 </div>

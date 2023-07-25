@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     ContainerComponent,
     NavComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

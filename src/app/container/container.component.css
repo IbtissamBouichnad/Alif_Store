@@ -4,8 +4,16 @@
      padding: 0px 0px 90px 0px;
      margin:0px auto;
 
-  }
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
 
+h2{
+    font-family: comic sans ms;
+    margin-left: 100px;
+}
 
  
 
